@@ -76,3 +76,31 @@ span.Lab1 {
     font-style: italic;
     color: #666;
 }
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* Main Sections */
+main > section:nth-child(odd) {
+    background: linear-gradient(to right, #91eae4, #86a8e7);
+}
+
+main > section:nth-child(even) {
+    background: linear-gradient(to right, #86a8e7, #91eae4);
+}
+
+/* Articles */
+article:nth-child(odd) {
+    background: linear-gradient(to right, #7b7d8d, #ada996);
+}
+
+article:nth-child(even) {
+    background: linear-gradient(to right, #ada996, #7b7d8d);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #7b7d8d, #ada996);
+}
